@@ -1,0 +1,30 @@
+[
+  {
+    "id": "kissanama-story-011",
+    "title": "यहाँ अपनी कहानी का शीर्षक लिखें",
+    "slug": "yahan-apni-kahani-ka-slug-likhein",
+    "excerpt": "एक या दो लाइन में बताएं कि यह कहानी किस बारे में है — यह होमपेज और कार्ड्स पर दिखेगा।",
+    "story": [
+      { "type": "paragraph", "text": "यह पहला पैराग्राफ़ है। यहाँ से अपनी कहानी शुरू करें।" },
+      { "type": "paragraph", "text": "इस तरह **bold text** के लिए दो सितारों (**) के बीच शब्द लिखें, और ==highlight text== के लिए दो बराबर के चिन्हों (==) के बीच।" },
+      { "type": "heading", "text": "एक उप-शीर्षक (optional)", "level": 2 },
+      { "type": "paragraph", "text": "हेडिंग के बाद का पैराग्राफ़।" },
+      { "type": "quote", "text": "यहाँ कोई प्रेरणादायक या भावुक पंक्ति (quote) डाल सकते हैं।", "cite": "" },
+      { "type": "image", "src": "assets/images/your-image-name.png", "alt": "इस तस्वीर का alt text (screen reader के लिए ज़रूरी)", "caption": "तस्वीर के नीचे दिखने वाला वैकल्पिक कैप्शन (यह हिस्सा हटा भी सकते हैं)" },
+      { "type": "separator" },
+      { "type": "paragraph", "text": "कहानी का आख़िरी हिस्सा / अंत।" }
+    ],
+    "image": "assets/images/your-image-name.png",
+    "imageAlt": "मुख्य (hero) तस्वीर के लिए alt text",
+    "publishedAt": "2026-01-01",
+    "updatedAt": "2026-01-01",
+    "author": "KissaNama",
+    "readingTime": 5,
+    "featured": false,
+    "seo": {
+      "title": "यहाँ SEO टाइटल लिखें | KissaNama",
+      "description": "यहाँ SEO के लिए 1-2 लाइन का description लिखें (150-160 अक्षर के आसपास ठीक रहता है)।",
+      "keywords": ["हिंदी कहानी", "यहां और keyword जोड़ें"]
+    }
+  }
+]

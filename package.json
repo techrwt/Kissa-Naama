@@ -1,0 +1,17 @@
+{
+  "name": "kissanama",
+  "version": "1.0.0",
+  "description": "KissaNama — हर कहानी के पीछे एक किस्सा. Hindi storytelling static site.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "validate": "node scripts/validate-content.js",
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js",
+    "start": "npm run build && npm run serve"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
