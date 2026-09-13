@@ -125,18 +125,18 @@ a {
 }
 
 .site-logo__img {
-  height: 48px;
+  height: 58px;
   width: auto;
-  max-width: 190px;
+  max-width: 230px;
   object-fit: contain;
 }
 
 @media (min-width: 600px) {
-  .site-logo__img { height: 56px; max-width: 220px; }
+  .site-logo__img { height: 68px; max-width: 265px; }
 }
 
 @media (min-width: 1024px) {
-  .site-logo__img { height: 66px; max-width: 260px; }
+  .site-logo__img { height: 80px; max-width: 310px; }
 }
 
 .site-nav ul {
