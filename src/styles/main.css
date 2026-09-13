@@ -101,8 +101,9 @@ a {
 /* --------------------------------------------------------------------- */
 
 .site-header {
-  background: var(--color-surface);
-  border-bottom: 1px solid var(--color-border);
+  background: var(--color-maroon-dark);
+  color: var(--color-bg);
+  border-bottom: 1px solid var(--color-maroon);
   position: sticky;
   top: 0;
   z-index: 100;
@@ -156,8 +157,8 @@ a {
 
 .nav-link:hover,
 .nav-link.is-active {
-  border-color: var(--color-maroon);
-  color: var(--color-maroon);
+  border-color: var(--color-gold);
+  color: var(--color-gold);
 }
 
 .nav-toggle {
@@ -174,7 +175,7 @@ a {
 .nav-toggle span {
   display: block;
   height: 2px;
-  background: var(--color-ink);
+  background: var(--color-bg);
   border-radius: 2px;
 }
 
@@ -186,8 +187,8 @@ a {
     top: 100%;
     left: 0;
     right: 0;
-    background: var(--color-surface);
-    border-bottom: 1px solid var(--color-border);
+    background: var(--color-maroon-dark);
+    border-bottom: 1px solid var(--color-maroon);
     max-height: 0;
     overflow: hidden;
     transition: max-height var(--transition-med);
@@ -198,7 +199,7 @@ a {
     gap: 0;
     padding: 8px 20px 16px;
   }
-  .site-nav li { border-bottom: 1px solid var(--color-border); }
+  .site-nav li { border-bottom: 1px solid rgba(248, 241, 227, 0.18); }
   .site-nav li:last-child { border-bottom: none; }
   .nav-link { display: block; padding: 14px 0; border-bottom: none; }
 }
@@ -564,7 +565,7 @@ mark.highlight {
 /* --------------------------------------------------------------------- */
 
 .site-footer {
-  background: var(--color-ink);
+  background: var(--color-maroon-dark);
   color: #efe4cf;
   margin-top: 40px;
 }
